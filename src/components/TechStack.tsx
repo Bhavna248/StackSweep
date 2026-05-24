@@ -54,7 +54,7 @@ export function TechStack() {
         <ScrollReveal className="lg:col-span-2" delay={150}>
           <div className="glass-panel-strong flex h-full flex-col justify-between rounded-2xl border-border-strong p-6">
             <div>
-              <p className="font-mono text-xs text-accent">// architecture highlights</p>
+              <p className="font-mono text-xs text-accent"> architecture highlights</p>
               <ul className="mt-4 space-y-3">
                 {highlights.map((h) => (
                   <li key={h} className="flex gap-3 text-sm text-muted">
