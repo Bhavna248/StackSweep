@@ -2,12 +2,22 @@
 
 **StackSweep** is a free AI stack spend auditor for **engineering leaders at Series A–B startups** who need defensible numbers on Cursor, Copilot, Claude, ChatGPT, and API overlap — before renewal season or a board ask.
 
-**Live URL:** [Deploy to Vercel and paste URL here](https://vercel.com)
+**Live URL:** Coming soon
 
 ## Screenshots
 
-_Add 3+ screenshots or a 30s Loom after deploy._
+<img width="1892" height="921" alt="image" src="https://github.com/user-attachments/assets/c5157b5f-1989-4cc2-b245-8d9572176a21" />
 
+## Features
+
+- AI stack spend auditing
+- Detects overlapping tools (Cursor, Copilot, Claude, ChatGPT)
+- Cost-saving recommendations
+- Shareable audit reports
+- Lead capture form
+- Rate limiting + spam protection
+- Built with Next.js, TypeScript, Supabase
+  
 ## Quick start
 
 ```bash
@@ -19,6 +29,16 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
+
+## Tech Stack
+
+- **Frontend:** Next.js 15, TypeScript, Tailwind CSS
+- **Backend:** API Routes
+- **Database:** Supabase
+- **Validation:** Zod
+- **Testing:** Vitest
+- **AI:** Anthropic API
+- **Deployment:** Vercel
 
 ### Deploy (Vercel)
 
@@ -44,15 +64,6 @@ npm test
 
 Hidden `website` honeypot field + 8 requests/hour/IP per route. See `ARCHITECTURE.md`.
 
-## Git history
-
-Evaluators require commits on **≥5 distinct calendar days**. Verify:
-
-```bash
-git log --pretty=format:"%ad" --date=short | sort -u | wc -l
-```
-
-Continue committing as you deploy, interview, and polish — avoid single-day “wip” dumps.
 
 ## Required docs
 
